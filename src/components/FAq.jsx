@@ -2,10 +2,30 @@ import React from 'react';
 
 const FAq = () => {
     return (
-        <div tabIndex={0} className="collapse collapse-arrow bg-base-100 border-base-300 border">
-            <div className="collapse-title font-semibold">How do I create an account?</div>
-            <div className="collapse-content text-sm">
-                Click the "Sign Up" button in the top right corner and follow the registration process.
+        <div className='w-[98%] mx-auto lg:w-[85%] md:w-[90%]'>
+            <div tabIndex={0} className="collapse collapse-arrow bg-base-100 border-base-300 border">
+                <div className="collapse-title font-semibold">Do plumbers deal with heating?</div>
+                <div className="collapse-content text-sm">
+                    Some of our local plumbers are also gas registered and experienced working on heating systems, bathrooms and kitchens.
+                </div>
+            </div>
+            <div tabIndex={0} className="collapse collapse-arrow bg-base-100 border-base-300 border">
+                <div className="collapse-title font-semibold">Do plumbers deal with heating?</div>
+                <div className="collapse-content text-sm">
+                    Some of our local plumbers are also gas registered and experienced working on heating systems, bathrooms and kitchens.
+                </div>
+            </div>
+            <div tabIndex={0} className="collapse collapse-arrow bg-base-100 border-base-300 border">
+                <div className="collapse-title font-semibold">Do plumbers deal with heating?</div>
+                <div className="collapse-content text-sm">
+                    Some of our local plumbers are also gas registered and experienced working on heating systems, bathrooms and kitchens.
+                </div>
+            </div>
+            <div tabIndex={0} className="collapse collapse-arrow bg-base-100 border-base-300 border">
+                <div className="collapse-title font-semibold">Do plumbers deal with heating?</div>
+                <div className="collapse-content text-sm">
+                    Some of our local plumbers are also gas registered and experienced working on heating systems, bathrooms and kitchens.
+                </div>
             </div>
         </div>
     );

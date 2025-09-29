@@ -1,3 +1,5 @@
+import Box from "./components/Box"
+import FAq from "./components/FAq"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -5,8 +7,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <p className="text-2xl">hello</p>
+      <Navbar />
+      
+      <Box/>
+    <br />
+      <FAq />
     </>
   )
 }
