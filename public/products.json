@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "rating": 4,
+    "description": "High-quality sound with deep bass and a 20-hour battery life.",
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693?auto=format&fit=crop&w=800&q=80",
+    "tag": "Hot"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch Series 7",
+    "price": 199.99,
+    "rating": 5,
+    "description": "Track your fitness, heart rate, and messages in one elegant smartwatch.",
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
+    "tag": "New"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 39.99,
+    "rating": 4,
+    "description": "Portable waterproof speaker with powerful sound and deep bass.",
+    "image": "https://images.unsplash.com/photo-1583225201085-3e76d5ee2f29?auto=format&fit=crop&w=800&q=80",
+    "tag": "Sale"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse RGB",
+    "price": 29.99,
+    "rating": 5,
+    "description": "Ergonomic gaming mouse with RGB lighting and 6 customizable buttons.",
+    "image": "https://images.unsplash.com/photo-1610389933467-9e7cc4f7d7b3?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending"
+  },
+  {
+    "id": 5,
+    "name": "4K Action Camera",
+    "price": 149.99,
+    "rating": 4,
+    "description": "Capture every adventure in stunning 4K resolution with waterproof casing.",
+    "image": "https://images.unsplash.com/photo-1606813904164-5b7e3a72f9d8?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller"
+  }
+]
