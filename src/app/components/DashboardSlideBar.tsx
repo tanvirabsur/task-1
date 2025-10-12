@@ -6,8 +6,8 @@ export default function DashboardSlideBar() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   const menuItems = [
-    { icon: Home, label: 'Dashboard', href: '#' },
-    { icon: BarChart3, label: 'Analytics', href: '#' },
+    { icon: Home, label: 'Dashboard', href: '/dashboard' },
+    { icon: BarChart3, label: 'addproduct', href: '/dashboard/addproduct' },
     { icon: Users, label: 'Team', href: '#' },
     { icon: Settings, label: 'Settings', href: '#' },
   ];
