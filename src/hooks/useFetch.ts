@@ -12,7 +12,8 @@ const useFetch = (url: string) => {
         } catch (error) {
             console.log(error);
         }
-    })
+    },[url])
+    
     return { data }
 };
 

@@ -1,47 +1,170 @@
 [
   {
     "id": 1,
-    "name": "Wireless Headphones",
-    "price": 59.99,
-    "rating": 4,
-    "description": "High-quality sound with deep bass and a 20-hour battery life.",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price": 129.99,
+    "rating": 4.7,
+    "description": "Immersive sound with deep bass and 30-hour battery life.",
     "image": "https://images.unsplash.com/photo-1585386959984-a41552231693?auto=format&fit=crop&w=800&q=80",
-    "tag": "Hot"
+    "tag": "Best Seller",
+    "features": ["Active Noise Cancellation", "30 Hours Battery Life", "Bluetooth 5.2", "Lightweight Design"],
+    "reviews": [
+      {"username": "Aminul", "rating": 5, "comment": "Amazing sound and comfort!"},
+      {"username": "Sara", "rating": 4, "comment": "Good quality but a bit pricey."}
+    ]
   },
   {
     "id": 2,
-    "name": "Smart Watch Series 7",
-    "price": 199.99,
-    "rating": 5,
-    "description": "Track your fitness, heart rate, and messages in one elegant smartwatch.",
-    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
-    "tag": "New"
+    "name": "Smart Fitness Watch",
+    "price": 89.99,
+    "rating": 4.5,
+    "description": "Track workouts, sleep, and heart rate with precision.",
+    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["Heart Rate Monitor", "Sleep Tracker", "Water Resistant", "Custom Watch Faces"],
+    "reviews": [
+      {"username": "Rahim", "rating": 5, "comment": "Perfect for workouts!"},
+      {"username": "Lisa", "rating": 4, "comment": "Battery could be better."}
+    ]
   },
   {
     "id": 3,
-    "name": "Bluetooth Speaker",
-    "price": 39.99,
-    "rating": 4,
-    "description": "Portable waterproof speaker with powerful sound and deep bass.",
-    "image": "https://images.unsplash.com/photo-1583225201085-3e76d5ee2f29?auto=format&fit=crop&w=800&q=80",
-    "tag": "Sale"
+    "name": "Mechanical Gaming Keyboard",
+    "price": 99.99,
+    "rating": 4.8,
+    "description": "RGB lighting and fast switches for pro gamers.",
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=80",
+    "tag": "Editor's Choice",
+    "features": ["RGB Lighting", "Anti-Ghosting", "Custom Keycaps"],
+    "reviews": [
+      {"username": "Nusrat", "rating": 5, "comment": "The lighting is gorgeous!"},
+      {"username": "Tareq", "rating": 5, "comment": "Best keyboard I've owned."}
+    ]
   },
   {
     "id": 4,
-    "name": "Gaming Mouse RGB",
-    "price": 29.99,
-    "rating": 5,
-    "description": "Ergonomic gaming mouse with RGB lighting and 6 customizable buttons.",
-    "image": "https://images.unsplash.com/photo-1610389933467-9e7cc4f7d7b3?auto=format&fit=crop&w=800&q=80",
-    "tag": "Trending"
+    "name": "Bluetooth Portable Speaker",
+    "price": 59.99,
+    "rating": 4.6,
+    "description": "Compact, waterproof speaker with punchy sound.",
+    "image": "https://images.unsplash.com/photo-1602526219045-9f1cb0c6dbe1?auto=format&fit=crop&w=800&q=80",
+    "tag": "New Arrival",
+    "features": ["Waterproof", "12-Hour Playtime", "Deep Bass"],
+    "reviews": [
+      {"username": "Joy", "rating": 4, "comment": "Great for travel!"},
+      {"username": "Mehedi", "rating": 5, "comment": "Super loud and clear!"}
+    ]
   },
   {
     "id": 5,
-    "name": "4K Action Camera",
-    "price": 149.99,
-    "rating": 4,
-    "description": "Capture every adventure in stunning 4K resolution with waterproof casing.",
-    "image": "https://images.unsplash.com/photo-1606813904164-5b7e3a72f9d8?auto=format&fit=crop&w=800&q=80",
-    "tag": "Best Seller"
+    "name": "Wireless Charging Pad",
+    "price": 29.99,
+    "rating": 4.3,
+    "description": "Fast wireless charging with sleek design.",
+    "image": "https://images.unsplash.com/photo-1611171712083-6b8b2f2a9c0b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Hot Deal",
+    "features": ["Fast Charge", "LED Indicator", "Slip Resistant"],
+    "reviews": [
+      {"username": "Fahim", "rating": 5, "comment": "Charges fast and looks premium."},
+      {"username": "Alina", "rating": 4, "comment": "Nice product but small pad area."}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ergonomic Office Chair",
+    "price": 199.99,
+    "rating": 4.9,
+    "description": "Adjustable chair for all-day comfort.",
+    "image": "https://images.unsplash.com/photo-1598300053650-3b76e3c3a8c4?auto=format&fit=crop&w=800&q=80",
+    "tag": "Premium",
+    "features": ["Adjustable Height", "Breathable Mesh", "Lumbar Support"],
+    "reviews": [
+      {"username": "Rafiq", "rating": 5, "comment": "Super comfortable!"},
+      {"username": "Karin", "rating": 5, "comment": "Worth every penny."}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "4K Smart TV 55-inch",
+    "price": 699.99,
+    "rating": 4.7,
+    "description": "Ultra HD display with built-in streaming apps.",
+    "image": "https://images.unsplash.com/photo-1593784991095-45b34e9c1a4e?auto=format&fit=crop&w=800&q=80",
+    "tag": "Top Rated",
+    "features": ["4K HDR", "Smart OS", "Voice Control"],
+    "reviews": [
+      {"username": "Hasan", "rating": 5, "comment": "Crisp visuals and easy setup."},
+      {"username": "Ruby", "rating": 4, "comment": "Great quality for the price."}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Laptop Backpack",
+    "price": 49.99,
+    "rating": 4.4,
+    "description": "Waterproof, durable backpack for laptops and travel.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80",
+    "tag": "Popular",
+    "features": ["Waterproof", "USB Charging Port", "Ergonomic Design"],
+    "reviews": [
+      {"username": "Akash", "rating": 4, "comment": "Spacious and durable."},
+      {"username": "Mona", "rating": 5, "comment": "Perfect for office and travel!"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Gaming Mouse RGB",
+    "price": 39.99,
+    "rating": 4.8,
+    "description": "High-precision gaming mouse with customizable RGB.",
+    "image": "https://images.unsplash.com/photo-1587202372775-98973c46c24f?auto=format&fit=crop&w=800&q=80",
+    "tag": "Gaming",
+    "features": ["Adjustable DPI", "RGB Lighting", "Ergonomic Grip"],
+    "reviews": [
+      {"username": "Shuvo", "rating": 5, "comment": "Great for long gaming sessions."},
+      {"username": "Tania", "rating": 5, "comment": "Smooth and accurate!"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Smartphone G12",
+    "price": 599.99,
+    "rating": 4.6,
+    "description": "Powerful smartphone with 108MP camera and AMOLED display.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "tag": "Flagship",
+    "features": ["108MP Camera", "5000mAh Battery", "Fast Charging"],
+    "reviews": [
+      {"username": "Faisal", "rating": 5, "comment": "Camera quality is top-notch!"},
+      {"username": "Niloy", "rating": 4, "comment": "Battery life could be better."}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Noise Cancelling Earbuds",
+    "price": 79.99,
+    "rating": 4.5,
+    "description": "Compact earbuds with ANC and wireless charging case.",
+    "image": "https://images.unsplash.com/photo-1606220838311-27e4b4b6ba59?auto=format&fit=crop&w=800&q=80",
+    "tag": "Hot Pick",
+    "features": ["ANC", "Wireless Charging", "Touch Controls"],
+    "reviews": [
+      {"username": "Samiha", "rating": 5, "comment": "Fits perfectly and sounds great!"},
+      {"username": "Rony", "rating": 4, "comment": "Good bass and battery life."}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Smart Home Speaker",
+    "price": 129.99,
+    "rating": 4.6,
+    "description": "Voice-controlled smart speaker with immersive audio.",
+    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a9?auto=format&fit=crop&w=800&q=80",
+    "tag": "Smart Home",
+    "features": ["Voice Assistant", "360° Sound", "Wi-Fi Connectivity"],
+    "reviews": [
+      {"username": "Farhan", "rating": 5, "comment": "Responds instantly and sounds great."},
+      {"username": "Jannat", "rating": 5, "comment": "Stylish and powerful."}
+    ]
   }
 ]

@@ -15,7 +15,7 @@ export default function ProductsClient() {
 
   return (
     <section className="py-12">
-      <div className="container mx-auto px-6 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="container mx-auto px-6 grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {data.map((p, i) => (
           <ProductCard key={i} product={p} />
         ))}

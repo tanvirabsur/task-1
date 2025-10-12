@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="absolute top-20 right-16 w-10 h-10 bg-white rounded-full shadow-lg animate-bounce-slow delay-400"></div>
 
             {/* Sparkles */}
-            {[...Array(10)].map((_, i) => (
+            {/* {[...Array(10)].map((_, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, scale: 0 }}
@@ -53,7 +53,7 @@ export default function Hero() {
                 transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.3 }}
                 className={`absolute w-2 h-2 bg-white rounded-full top-${Math.floor(Math.random() * 80)} left-${Math.floor(Math.random() * 80)} opacity-75`}
               />
-            ))}
+            ))} */}
 
           </div>
         </motion.div>
