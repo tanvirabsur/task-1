@@ -3,14 +3,15 @@ import React, { useState, useEffect } from "react";
 import { ShoppingCart, User, Menu, X, Search } from "lucide-react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname()
-  
 
-  
+
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -19,16 +20,15 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  if(pathname.includes("dashboard")) return null;
+  if (pathname.includes("dashboard")) return null;
 
   return (
     <motion.nav
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className={`sticky top-0 left-0 w-full z-50 backdrop-blur-md transition-all duration-500 ${
-        scrolled ? "bg-white/80 shadow-lg" : "bg-transparent"
-      }`}
+      className={`sticky top-0 left-0 w-full z-50 backdrop-blur-md transition-all duration-500 ${scrolled ? "bg-white/80 shadow-lg" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-10 text-gray-700 font-semibold">
-          {['Home', 'Shop', 'Categories','dashboard', 'About', 'Contact'].map((item) => (
+          {['Home', 'Shop', 'Categories', 'dashboard', 'About', 'Contact'].map((item) => (
             <motion.li
               key={item}
               whileHover={{ scale: 1.1 }}
@@ -60,7 +60,8 @@ export default function Navbar() {
         {/* Icons */}
         <div className="hidden md:flex items-center space-x-6">
           <Search className="w-6 h-6 text-gray-600 hover:text-blue-500 cursor-pointer" />
-          <User className="w-6 h-6 text-gray-600 hover:text-blue-500 cursor-pointer" />
+          <Link href="/login">
+            <User className="w-6 h-6 text-gray-600 hover:text-blue-500 cursor-pointer" /></Link>
           <ShoppingCart className="w-6 h-6 text-gray-600 hover:text-blue-500 cursor-pointer" />
         </div>
 
@@ -78,7 +79,7 @@ export default function Navbar() {
           className="md:hidden bg-white shadow-lg border-t"
         >
           <ul className="flex flex-col items-center py-6 space-y-4 font-semibold text-gray-700">
-            {['Home', 'Shop','dashboard', 'Categories', 'About', 'Contact'].map((item) => (
+            {['Home', 'Shop', 'dashboard', 'Categories', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <a
                   href={`${item.toLowerCase()}`}
