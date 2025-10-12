@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-10 text-gray-700 font-semibold">
-          {['Home', 'Shop', 'Categories', 'dashboard', 'About', 'Contact'].map((item) => (
+          {['Home', 'Categories', 'dashboard', 'Contact'].map((item) => (
             <motion.li
               key={item}
               whileHover={{ scale: 1.1 }}
@@ -79,7 +79,7 @@ export default function Navbar() {
           className="md:hidden bg-white shadow-lg border-t"
         >
           <ul className="flex flex-col items-center py-6 space-y-4 font-semibold text-gray-700">
-            {['Home', 'Shop', 'dashboard', 'Categories', 'About', 'Contact'].map((item) => (
+            {['Home',  'dashboard', 'Categories',].map((item) => (
               <li key={item}>
                 <a
                   href={`${item.toLowerCase()}`}

@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Wireless Noise-Cancelling Headphones",
-    "price": 129.99,
+    "name": "Wireless Noise-Canceling Headphones",
+    "price": 149.99,
     "rating": 4.7,
-    "description": "Immersive sound with deep bass and 30-hour battery life.",
-    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693?auto=format&fit=crop&w=800&q=80",
-    "tag": "Best Seller",
-    "features": ["Active Noise Cancellation", "30 Hours Battery Life", "Bluetooth 5.2", "Lightweight Design"],
+    "description": "Premium audio quality with active noise cancellation technology.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["Active Noise Cancellation", "30-Hour Battery", "Bluetooth 5.0", "Built-in Microphone"],
     "reviews": [
-      {"username": "Aminul", "rating": 5, "comment": "Amazing sound and comfort!"},
-      {"username": "Sara", "rating": 4, "comment": "Good quality but a bit pricey."}
+      {"username": "Ahmed", "rating": 5, "comment": "Best headphones I've owned!"},
+      {"username": "Sarah", "rating": 4, "comment": "Great sound quality, comfortable fit."}
     ]
   },
   {
@@ -29,142 +29,254 @@
   },
   {
     "id": 3,
-    "name": "Mechanical Gaming Keyboard",
-    "price": 99.99,
-    "rating": 4.8,
-    "description": "RGB lighting and fast switches for pro gamers.",
-    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=80",
-    "tag": "Editor's Choice",
-    "features": ["RGB Lighting", "Anti-Ghosting", "Custom Keycaps"],
+    "name": "Ultra-Fast USB-C Cable",
+    "price": 19.99,
+    "rating": 4.2,
+    "description": "High-speed data transfer and charging for all USB-C devices.",
+    "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["100W Fast Charging", "Durability Tested", "6ft Length", "Data Transfer 480Mbps"],
     "reviews": [
-      {"username": "Nusrat", "rating": 5, "comment": "The lighting is gorgeous!"},
-      {"username": "Tareq", "rating": 5, "comment": "Best keyboard I've owned."}
+      {"username": "Khan", "rating": 4, "comment": "Very durable cable."},
+      {"username": "Emma", "rating": 4, "comment": "Fast charging works great."}
     ]
   },
   {
     "id": 4,
-    "name": "Bluetooth Portable Speaker",
+    "name": "Portable Bluetooth Speaker",
     "price": 59.99,
     "rating": 4.6,
-    "description": "Compact, waterproof speaker with punchy sound.",
-    "image": "https://images.unsplash.com/photo-1602526219045-9f1cb0c6dbe1?auto=format&fit=crop&w=800&q=80",
-    "tag": "New Arrival",
-    "features": ["Waterproof", "12-Hour Playtime", "Deep Bass"],
+    "description": "Powerful 360-degree sound in a compact, waterproof design.",
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133814c9?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller",
+    "features": ["360-Degree Sound", "Waterproof", "12-Hour Battery", "Bluetooth 5.0"],
     "reviews": [
-      {"username": "Joy", "rating": 4, "comment": "Great for travel!"},
-      {"username": "Mehedi", "rating": 5, "comment": "Super loud and clear!"}
+      {"username": "Hassan", "rating": 5, "comment": "Amazing sound quality!"},
+      {"username": "Nina", "rating": 4, "comment": "Good bass, slightly heavy."}
     ]
   },
   {
     "id": 5,
-    "name": "Wireless Charging Pad",
-    "price": 29.99,
-    "rating": 4.3,
-    "description": "Fast wireless charging with sleek design.",
-    "image": "https://images.unsplash.com/photo-1611171712083-6b8b2f2a9c0b?auto=format&fit=crop&w=800&q=80",
-    "tag": "Hot Deal",
-    "features": ["Fast Charge", "LED Indicator", "Slip Resistant"],
+    "name": "4K Webcam",
+    "price": 129.99,
+    "rating": 4.4,
+    "description": "Crystal-clear 4K video for streaming and video calls.",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["4K Resolution", "Auto Focus", "Built-in Microphone", "USB Plug & Play"],
     "reviews": [
-      {"username": "Fahim", "rating": 5, "comment": "Charges fast and looks premium."},
-      {"username": "Alina", "rating": 4, "comment": "Nice product but small pad area."}
+      {"username": "Ravi", "rating": 5, "comment": "Perfect for streaming!"},
+      {"username": "Julia", "rating": 4, "comment": "Great quality, a bit pricey."}
     ]
   },
   {
     "id": 6,
-    "name": "Ergonomic Office Chair",
-    "price": 199.99,
-    "rating": 4.9,
-    "description": "Adjustable chair for all-day comfort.",
-    "image": "https://images.unsplash.com/photo-1598300053650-3b76e3c3a8c4?auto=format&fit=crop&w=800&q=80",
-    "tag": "Premium",
-    "features": ["Adjustable Height", "Breathable Mesh", "Lumbar Support"],
+    "name": "Ergonomic Mechanical Keyboard",
+    "price": 99.99,
+    "rating": 4.8,
+    "description": "Premium mechanical switches with customizable RGB lighting.",
+    "image": "https://images.unsplash.com/photo-1587829191301-4c69b41f00b0?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller",
+    "features": ["Mechanical Switches", "RGB Lighting", "Wireless", "Programmable Keys"],
     "reviews": [
-      {"username": "Rafiq", "rating": 5, "comment": "Super comfortable!"},
-      {"username": "Karin", "rating": 5, "comment": "Worth every penny."}
+      {"username": "Marcus", "rating": 5, "comment": "Best keyboard for gaming!"},
+      {"username": "Sophie", "rating": 5, "comment": "Excellent build quality."}
     ]
   },
   {
     "id": 7,
-    "name": "4K Smart TV 55-inch",
-    "price": 699.99,
-    "rating": 4.7,
-    "description": "Ultra HD display with built-in streaming apps.",
-    "image": "https://images.unsplash.com/photo-1593784991095-45b34e9c1a4e?auto=format&fit=crop&w=800&q=80",
-    "tag": "Top Rated",
-    "features": ["4K HDR", "Smart OS", "Voice Control"],
+    "name": "Wireless Mouse with Precision Tracking",
+    "price": 34.99,
+    "rating": 4.3,
+    "description": "High-precision tracking with 6 programmable buttons.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["6400 DPI", "6 Programmable Buttons", "2.4GHz Wireless", "30-Hour Battery"],
     "reviews": [
-      {"username": "Hasan", "rating": 5, "comment": "Crisp visuals and easy setup."},
-      {"username": "Ruby", "rating": 4, "comment": "Great quality for the price."}
+      {"username": "David", "rating": 4, "comment": "Smooth tracking and responsive."},
+      {"username": "Claire", "rating": 4, "comment": "Good value for money."}
     ]
   },
   {
     "id": 8,
-    "name": "Laptop Backpack",
-    "price": 49.99,
-    "rating": 4.4,
-    "description": "Waterproof, durable backpack for laptops and travel.",
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80",
-    "tag": "Popular",
-    "features": ["Waterproof", "USB Charging Port", "Ergonomic Design"],
+    "name": "Portable SSD 1TB",
+    "price": 119.99,
+    "rating": 4.7,
+    "description": "Ultra-fast storage with USB 3.2 Gen 2 connectivity.",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["1TB Capacity", "550MB/s Speed", "Shock Resistant", "Compact Design"],
     "reviews": [
-      {"username": "Akash", "rating": 4, "comment": "Spacious and durable."},
-      {"username": "Mona", "rating": 5, "comment": "Perfect for office and travel!"}
+      {"username": "Priya", "rating": 5, "comment": "Lightning-fast storage!"},
+      {"username": "Tom", "rating": 5, "comment": "Reliable and portable."}
     ]
   },
   {
     "id": 9,
-    "name": "Gaming Mouse RGB",
-    "price": 39.99,
-    "rating": 4.8,
-    "description": "High-precision gaming mouse with customizable RGB.",
-    "image": "https://images.unsplash.com/photo-1587202372775-98973c46c24f?auto=format&fit=crop&w=800&q=80",
-    "tag": "Gaming",
-    "features": ["Adjustable DPI", "RGB Lighting", "Ergonomic Grip"],
+    "name": "USB Hub 7-in-1",
+    "price": 29.99,
+    "rating": 4.1,
+    "description": "Expand your USB connectivity with 7 ports and fast charging.",
+    "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["7 USB Ports", "Fast Charging", "Compact", "LED Indicator"],
     "reviews": [
-      {"username": "Shuvo", "rating": 5, "comment": "Great for long gaming sessions."},
-      {"username": "Tania", "rating": 5, "comment": "Smooth and accurate!"}
+      {"username": "Alex", "rating": 4, "comment": "Works perfectly for my desk."},
+      {"username": "Maya", "rating": 4, "comment": "Good build quality."}
     ]
   },
   {
     "id": 10,
-    "name": "Smartphone G12",
-    "price": 599.99,
-    "rating": 4.6,
-    "description": "Powerful smartphone with 108MP camera and AMOLED display.",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
-    "tag": "Flagship",
-    "features": ["108MP Camera", "5000mAh Battery", "Fast Charging"],
+    "name": "Wireless Charging Pad",
+    "price": 24.99,
+    "rating": 4.2,
+    "description": "Fast wireless charging for all Qi-enabled devices.",
+    "image": "https://images.unsplash.com/photo-1591290619210-b9e9cbc24d16?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller",
+    "features": ["Qi Compatible", "15W Fast Charging", "Non-Slip Surface", "LED Indicator"],
     "reviews": [
-      {"username": "Faisal", "rating": 5, "comment": "Camera quality is top-notch!"},
-      {"username": "Niloy", "rating": 4, "comment": "Battery life could be better."}
+      {"username": "Ryan", "rating": 4, "comment": "Convenient and fast."},
+      {"username": "Jessica", "rating": 4, "comment": "Does the job well."}
     ]
   },
   {
     "id": 11,
-    "name": "Noise Cancelling Earbuds",
-    "price": 79.99,
-    "rating": 4.5,
-    "description": "Compact earbuds with ANC and wireless charging case.",
-    "image": "https://images.unsplash.com/photo-1606220838311-27e4b4b6ba59?auto=format&fit=crop&w=800&q=80",
-    "tag": "Hot Pick",
-    "features": ["ANC", "Wireless Charging", "Touch Controls"],
+    "name": "HD Monitor 27-inch",
+    "price": 199.99,
+    "rating": 4.6,
+    "description": "4K resolution monitor with IPS panel and USB-C connectivity.",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["4K IPS Panel", "USB-C Connectivity", "99% sRGB", "Height Adjustable"],
     "reviews": [
-      {"username": "Samiha", "rating": 5, "comment": "Fits perfectly and sounds great!"},
-      {"username": "Rony", "rating": 4, "comment": "Good bass and battery life."}
+      {"username": "Chris", "rating": 5, "comment": "Perfect for photo editing!"},
+      {"username": "Victoria", "rating": 4, "comment": "Great colors and clarity."}
     ]
   },
   {
     "id": 12,
-    "name": "Smart Home Speaker",
-    "price": 129.99,
-    "rating": 4.6,
-    "description": "Voice-controlled smart speaker with immersive audio.",
-    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a9?auto=format&fit=crop&w=800&q=80",
-    "tag": "Smart Home",
-    "features": ["Voice Assistant", "360° Sound", "Wi-Fi Connectivity"],
+    "name": "Laptop Stand Aluminum",
+    "price": 44.99,
+    "rating": 4.4,
+    "description": "Adjustable aluminum laptop stand for better ergonomics.",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["Adjustable Height", "Aluminum Build", "Supports 17-inch Laptop", "Portable"],
     "reviews": [
-      {"username": "Farhan", "rating": 5, "comment": "Responds instantly and sounds great."},
-      {"username": "Jannat", "rating": 5, "comment": "Stylish and powerful."}
+      {"username": "Patrick", "rating": 4, "comment": "Great for posture improvement."},
+      {"username": "Anna", "rating": 4, "comment": "Sturdy and looks sleek."}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Phone Ring Stand",
+    "price": 9.99,
+    "rating": 4.0,
+    "description": "Convenient phone ring stand with strong adhesive.",
+    "image": "https://images.unsplash.com/photo-1592286927505-1def25115558?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["360-Degree Rotation", "Strong Grip", "Universal Fit", "Slim Design"],
+    "reviews": [
+      {"username": "Michael", "rating": 4, "comment": "Very practical."},
+      {"username": "Lauren", "rating": 4, "comment": "Holds phone securely."}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Power Bank 20000mAh",
+    "price": 39.99,
+    "rating": 4.5,
+    "description": "High-capacity power bank with dual fast charging.",
+    "image": "https://images.unsplash.com/photo-1591290619210-b9e9cbc24d16?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller",
+    "features": ["20000mAh Capacity", "Dual USB Output", "LED Display", "Compact Design"],
+    "reviews": [
+      {"username": "James", "rating": 5, "comment": "Perfect for travel!"},
+      {"username": "Rachel", "rating": 4, "comment": "Charges fast and lasts long."}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cable Organizer Set",
+    "price": 14.99,
+    "rating": 4.3,
+    "description": "Silicone cable organizers to keep your desk tidy.",
+    "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["5 Pieces", "Silicone Material", "Reusable", "Multiple Colors"],
+    "reviews": [
+      {"username": "Kevin", "rating": 4, "comment": "Great for cable management."},
+      {"username": "Olivia", "rating": 4, "comment": "Simple and effective."}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Webcam Privacy Shutter",
+    "price": 4.99,
+    "rating": 4.7,
+    "description": "Simple slider webcam cover for instant privacy.",
+    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["Universal Fit", "Durable Plastic", "Easy Slide", "No Installation Required"],
+    "reviews": [
+      {"username": "Brandon", "rating": 5, "comment": "Great privacy protection!"},
+      {"username": "Megan", "rating": 5, "comment": "Simple and effective."}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Desk Lamp LED",
+    "price": 49.99,
+    "rating": 4.6,
+    "description": "Adjustable LED desk lamp with USB charging port.",
+    "image": "https://images.unsplash.com/photo-1565636192335-14bae20b11a3?auto=format&fit=crop&w=800&q=80",
+    "tag": "Trending",
+    "features": ["Adjustable Brightness", "USB Charging Port", "Touch Control", "Eye Care"],
+    "reviews": [
+      {"username": "Samuel", "rating": 5, "comment": "Perfect lighting for work!"},
+      {"username": "Rebecca", "rating": 4, "comment": "Bright and energy efficient."}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Screen Protector Tempered Glass",
+    "price": 12.99,
+    "rating": 4.4,
+    "description": "Ultra-clear tempered glass screen protector for smartphones.",
+    "image": "https://images.unsplash.com/photo-1592286927505-1def25115558?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["Scratch Resistant", "Anti-Fingerprint", "Easy Installation", "2 Pieces"],
+    "reviews": [
+      {"username": "Edward", "rating": 4, "comment": "Great protection."},
+      {"username": "Diana", "rating": 4, "comment": "Clear and responsive."}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Gaming Mouse Pad",
+    "price": 34.99,
+    "rating": 4.5,
+    "description": "Large gaming mouse pad with smooth surface and RGB lighting.",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "tag": "Best Seller",
+    "features": ["Large Surface", "RGB Lighting", "Non-Slip Base", "Stitched Edges"],
+    "reviews": [
+      {"username": "Trevor", "rating": 5, "comment": "Perfect for gaming!"},
+      {"username": "Stephanie", "rating": 4, "comment": "Great quality and design."}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "USB 3.0 Flash Drive 64GB",
+    "price": 19.99,
+    "rating": 4.2,
+    "description": "Fast USB 3.0 flash drive with 64GB storage capacity.",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Budget-Friendly",
+    "features": ["64GB Capacity", "USB 3.0 Speed", "Compact Size", "Durable Design"],
+    "reviews": [
+      {"username": "Frank", "rating": 4, "comment": "Fast and reliable."},
+      {"username": "Helen", "rating": 4, "comment": "Good value for storage."}
     ]
   }
 ]

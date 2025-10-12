@@ -17,7 +17,7 @@ type Product = {
 
 export default function ProductCard({ product }: { product: Product }) {
     return (
-        <Link href={`/${product.id}`}>
+        <Link className="w-full" href={`/${product.id}`}>
             <motion.div
                 whileHover={{ scale: 1.03, y: -5 }}
                 transition={{ type: "spring", stiffness: 250 }}
