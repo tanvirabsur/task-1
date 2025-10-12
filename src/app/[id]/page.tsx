@@ -24,7 +24,8 @@ export default function ProductDetails() {
 
     
 
-    const product: productType = data?.find(p => p?.id.toString() === id)
+    // const product: productType = data?.find(p => p?.id.toString() === id)
+    const product: productType | undefined = (data as productType[] | undefined)?.find(p => p?.id.toString() === id)
     console.log(product);
 //   const product = dummyProduct;
 if (!product) return <div className="p-8 text-center">Loading product...</div>;
