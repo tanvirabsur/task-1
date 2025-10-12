@@ -2,11 +2,15 @@
 import React, { useState, useEffect } from "react";
 import { ShoppingCart, User, Menu, X, Search } from "lucide-react";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname()
+  
 
+  
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -14,6 +18,8 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  if(pathname.includes("dashboard")) return null;
 
   return (
     <motion.nav
@@ -37,13 +43,13 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-10 text-gray-700 font-semibold">
-          {['Home', 'Shop', 'Categories', 'About', 'Contact'].map((item) => (
+          {['Home', 'Shop', 'Categories','dashboard', 'About', 'Contact'].map((item) => (
             <motion.li
               key={item}
               whileHover={{ scale: 1.1 }}
               className="relative group cursor-pointer"
             >
-              <a href={`#${item.toLowerCase()}`} className="hover:text-blue-600">
+              <a href={`${item.toLowerCase()}`} className="hover:text-blue-600">
                 {item}
               </a>
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-500 transition-all group-hover:w-full"></span>
@@ -72,10 +78,10 @@ export default function Navbar() {
           className="md:hidden bg-white shadow-lg border-t"
         >
           <ul className="flex flex-col items-center py-6 space-y-4 font-semibold text-gray-700">
-            {['Home', 'Shop', 'Categories', 'About', 'Contact'].map((item) => (
+            {['Home', 'Shop','dashboard', 'Categories', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <a
-                  href={`#${item.toLowerCase()}`}
+                  href={`${item.toLowerCase()}`}
                   className="hover:text-blue-600"
                   onClick={() => setIsOpen(false)}
                 >
